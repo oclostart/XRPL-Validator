@@ -1,7 +1,12 @@
 # LOST ART - XRPL VALIDATOR
 ===========================
-- Ownder: Lost Art
-- Domain: oclost.art
-- TOML: https://oclost.art/.well-known/xrp-ledger.toml
+- Owner: Lost Art
 - Public Key: nHU4puuP2kG2DySY7uBVYAzjCFbpFuPcK3SfubHqsM825iXg3NdT
 - Signing Key: n9LgeaZHS8XBgMrFinacxKNn28mdbknFoP1g1woMJXvtEFoXxivr
+
+# CONFIGURATION FILE
+====================
+- Domain: oclost.art
+- TOML: https://oclost.art/.well-known/xrp-ledger.toml
+- Database: 
+- NodeSize: 
