@@ -7,3 +7,9 @@ curl ipinfo.io - ASN number ("org")
 sudo /opt/ripple/bin/update-rippled.sh - Update rippled script.
 sudo rippled --conf /etc/opt/ripple/rippled.cfg (debug service)
 
+# MANUALLY UPDATE
+=================
+sudo apt -y update
+sudo apt -y upgrade rippled
+sudo systemctl daemon-reload
+sudo systemctl restart rippled
