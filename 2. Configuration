@@ -1,8 +1,9 @@
 # RIPPLEDCONFIGURATION FILE
 ===========================
 
-[ips]
+*[ips]
 
+[voting]
 reference_fee = 10
 account_reserve = 100000
 owner_reserve = 10000
@@ -12,8 +13,10 @@ huge
 
 [node_db]
 type=NuDB
+online_delete=50000
+*advisory_delete=0
 
+#
+===============
 domain: oclost.art
-vm.swappiness=0
-
-online+delete=750000
+*vm.swappiness=0
