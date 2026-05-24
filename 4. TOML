@@ -52,7 +52,6 @@ myweb3 = "@LostArt"
 domain = "https://www.oclost.art"
 server_location = "Orange County, California"
 server_cloud = false
-network_asn = 
 timezone = "America/Los_Angeles"
 additional_info = "https://github.com/oclostart/XRPL-Validator"
 
