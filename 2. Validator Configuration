@@ -10,6 +10,6 @@
 - Domain: oclost.art
 - TOML: https://oclost.art/.well-known/xrp-ledger.toml
 - Database: 
-- NodeSize: huge
 - vm.swappiness=0
-- online+delete
+- NodeSize: huge
+- online+delete=750000
