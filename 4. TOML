@@ -24,6 +24,9 @@ network = ""
 display_decimals = 
 symbol = ""
 
+[[XLS-50]]
+network_asn = 
+
 # TOML FILE
 ============================================================================================================
 # In collaboration with MyWeb3.me
