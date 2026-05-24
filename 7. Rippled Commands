@@ -4,11 +4,19 @@ sudo systemctl restart rippled.service - Restart Rippled Service
 sudo rippled peers - View Rippled Peers
 
 # MANUALLY UPDATE THE RIPPLED VERSION (SET)
-=======================
+===========================================
 sudo apt -y update
 sudo apt -y upgrade rippled
 sudo systemctl daemon-reload
 sudo systemctl restart rippled
+
+# OPEN THE RIPPLED CONFIG FILE
+==============================
+sudo nano /etc/opt/ripple/rippled.cfg
+
+# OPEN THE VALIDATORS TEXT FILE
+=================================
+sudo nano /etc/opt/ripple/validators.txt
 
 # EXMAPLES TO VOTE FOR AN AMENDMENT VIA THE CLI 
 ===============================================
@@ -21,7 +29,6 @@ rippled feature SHAMapV2 reject
 { "command": "feature", "feature": "MPTokensV1", "vetoed": false }
 { "command": "feature", "feature": "Batch", "vetoed": false }
 
-# ACCESS 
 
 # SET YOUR DOMAIN
 # SET ATTESTATION
