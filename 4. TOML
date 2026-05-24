@@ -60,7 +60,7 @@ storage = "1 TB Samsung SSD SATA 6GB/s (RAID 1 Mirroring) x 2"
 raid_controller: "PERC H330 Mini Mono 12GB/s RAID Card"
 network_card: "FM487 1350 4 × 1 Gbps RJ-45"
 os = "Linux (Ubuntu)"
-network_connectivity = "1 Gbps"
+internet_connectivity = "1 Gbps"
 
 # End of file
 ============================================================================================================
