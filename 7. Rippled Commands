@@ -37,8 +37,6 @@ rippled feature SHAMapV2 reject
 { "command": "feature", "feature": "MPTokensV1", "vetoed": false }
 { "command": "feature", "feature": "Batch", "vetoed": false }
 
-
 # SET YOUR DOMAIN
 # SET ATTESTATION
 # DOWNGRADE THE VALIDATOR
-
