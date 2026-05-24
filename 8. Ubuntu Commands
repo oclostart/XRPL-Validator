@@ -1,1 +1,9 @@
 
+# CHECK CPU USAGE (2 OPTIONS)
+=============================
+top
+htop
+
+# CHECK LAST BOOT DATE
+======================
+uptime -s
