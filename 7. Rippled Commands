@@ -4,12 +4,27 @@ sudo systemctl restart rippled.service - Restart Rippled Service
 sudo rippled peers - View Rippled Peers
 sudo rippled validators - 
 curl ipinfo.io - ASN number ("org")
-sudo /opt/ripple/bin/update-rippled.sh - Update rippled script.
-sudo rippled --conf /etc/opt/ripple/rippled.cfg (debug service)
 
-# MANUALLY UPDATE
-=================
+
+# MANUALLY UPDATE THE RIPPLED VERSION (SET)
+=======================
 sudo apt -y update
 sudo apt -y upgrade rippled
 sudo systemctl daemon-reload
 sudo systemctl restart rippled
+
+# EXMAPLES TO VOTE FOR AN AMENDMENT VIA THE CLI 
+===============================================
+rippled feature SHAMapV2 reject
+rippled feature SHAMapV2 reject
+
+# EXAMPLES TO VOTE FOR AN AMENDMENT VIA THE CONFIG FILE
+=======================================================
+[rpc_startup]
+{ "command": "feature", "feature": "MPTokensV1", "vetoed": false }
+{ "command": "feature", "feature": "Batch", "vetoed": false }
+
+# ACCESS 
+
+# SET YOUR DOMAIN
+# SET ATTESTATION
