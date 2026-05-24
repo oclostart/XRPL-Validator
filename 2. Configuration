@@ -1,8 +1,9 @@
 # CONFIGURATION FILE
 ====================
-- Domain: oclost.art
-- TOML: https://oclost.art/.well-known/xrp-ledger.toml
-- Database: 
-- vm.swappiness=0
-- NodeSize: huge
-- online+delete=750000
+account_reserve
+object reserve
+domain: oclost.art
+database: 
+vm.swappiness=0
+nodeSize: huge
+online+delete=750000
