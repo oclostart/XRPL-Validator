@@ -1,1 +1,44 @@
 
+[METADATA]
+modified = 2026-05-24T07:00:00.000Z
+
+# TOML FILE GUIDE REFERENCES
+===========================
+- XRPL.org: https://xrpl.org/docs/references/xrp-ledger-toml#contents
+- XLS-50: https://github.com/XRPLF/XRPL-Standards/tree/master/XLS-0050-validator-toml-infra-details#readme
+
+# TOML FILE
+===========
+[[VALIDATORS]]
+public_key = "nHU4puuP2kG2DySY7uBVYAzjCFbpFuPcK3SfubHqsM825iXg3NdT"
+desc = "Lost Art XRPL Validator"
+
+server_country = "US"
+server_location = "Orange County, California"
+server_cloud = false
+network_asn = 
+
+https://github.com/oclostart/XRPL-Validator
+owner_country = "US"
+timezone = "America/Los_Angeles"
+unl = "XRPLF,RIPPLE"
+attestation="BB9ABB255CAD04020CD77105CDDBE8D28B86B08051FC2F55F3D140BD7D3994C8B67F9CD45B07CACFB1BE44F60C6DFDD3D38AF01148824EC19F17B696249DFB0B"
+
+[[SERVERS]]
+domain = "https://www.oclost.art"
+
+[[VALIDATOR_SPEC]]
+CPU = "2 x  Xeon E5-2667V4 8-Core 3.2 GHz"
+MEMORY = "64GB DDR4 2666 Mhz PC4 R"	
+DISK = "2 x 1TB SSD SATA 6GB/s (RAID 1)"
+OS = "Linux"
+CONNECTIVITY = "1 Gbps"
+
+[[PRINCIPALS]]
+name = "Lost Art"
+email = "contact@oclostart"
+myweb3 = "@OCLostArt"
+x = "@OCLostArt"
+
+# In collaboration with MyWeb3.me
+# End of file
