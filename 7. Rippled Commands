@@ -1,1 +1,10 @@
 
+
+//sudo nano /etc/opt/ripple/rippled.cfg - Access Rippled config
+//sudo rippled server_info - View Rippled Status
+//sudo systemctl restart rippled.service - Restart Rippled Service
+//sudo rippled peers - View Rippled Peers
+//sudo rippled validators - 
+//curl ipinfo.io - ASN number ("org")
+//sudo /opt/ripple/bin/update-rippled.sh - Update rippled script.
+//sudo rippled --conf /etc/opt/ripple/rippled.cfg (debug service)
