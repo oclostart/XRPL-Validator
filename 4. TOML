@@ -3,6 +3,7 @@
 - XRPL.org: https://xrpl.org/docs/references/xrp-ledger-toml#contents
 - XLS-50: https://github.com/XRPLF/XRPL-Standards/tree/master/XLS-0050-validator-toml-infra-details#readme
 - TOML Download: https://oclost.art/.well-known/xrp-ledger.toml
+
 # VARIABLES NOT IN USE
 ======================
 [[ACCOUNTS]]
