@@ -1,9 +1,19 @@
-# CONFIGURATION FILE
-====================
-account_reserve
-object reserve
+# RIPPLEDCONFIGURATION FILE
+===========================
+
+[ips]
+
+reference_fee = 10
+account_reserve = 100000
+owner_reserve = 10000
+
+[node_size]
+huge
+
+[node_db]
+type=NuDB
+
 domain: oclost.art
-database: 
 vm.swappiness=0
-nodeSize: huge
+
 online+delete=750000
