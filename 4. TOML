@@ -3,8 +3,30 @@
 - XRPL.org: https://xrpl.org/docs/references/xrp-ledger-toml#contents
 - XLS-50: https://github.com/XRPLF/XRPL-Standards/tree/master/XLS-0050-validator-toml-infra-details#readme
 
+# VARIABLES NOT IN USE
+======================
+[[ACCOUNTS]]
+address = ""
+desc = ""
+
+[[SERVERS]]
+json_rpc = ""
+ws = ""
+peer = ""
+network = ""
+desc = ""
+
+[[CURRENCIES]]
+code = ""
+issuer = ""
+network = ""
+display_decimals = 
+symbol = ""
+
 # TOML FILE
-=================================================================================================
+============================================================================================================
+# In collaboration with MyWeb3.me
+
 [METADATA]
 modified = 2026-05-24T07:00:00.000Z
 
@@ -30,33 +52,15 @@ network_asn =
 timezone = "America/Los_Angeles"
 additional_info = "https://github.com/oclostart/XRPL-Validator"
 
-[[VALIDATOR_SPEC]]
-CPU = "2 x Xeon E5-2667V4 8-Core 3.2 GHz"
-MEMORY = "64GB DDR4 2666 Mhz PC4 R"	
-DISK = "2 x 1TB SSD SATA 6GB/s (RAID 1)"
-OS = "Linux"
-CONNECTIVITY = "1 Gbps"
+[[VALIDATOR_SPECIFICATIONS]]
+model = "Dell PowerEdge R630"
+cpu = "Xeon E5-2667v4 8-Core 3.2 GHz x 2"
+memory = "64 GB DDR4 2666 Mhz PC4 R"	
+storage = "1 TB Samsung SSD SATA 6GB/s (RAID 1 Mirroring) x 2"
+raid_controller: "PERC H330 Mini Mono 12GB/s RAID Card"
+network_card: "FM487 1350 4 × 1 Gbps RJ-45"
+os = "Linux (Ubuntu)"
+network_connectivity = "1 Gbps"
 
-# In collaboration with MyWeb3.me
 # End of file
-=====================================================================================================
-
-# NOT IN USE
-============
-[[ACCOUNTS]]
-address = ""
-desc = ""
-
-[[SERVERS]]
-json_rpc = ""
-ws = ""
-peer = ""
-network = ""
-desc = ""
-
-[[CURRENCIES]]
-code = ""
-issuer = ""
-network = ""
-display_decimals = 
-symbol = ""
+============================================================================================================
