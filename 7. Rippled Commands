@@ -1,7 +1,3 @@
-sudo nano /etc/opt/ripple/rippled.cfg - Access Rippled config
-sudo rippled server_info - View Rippled Status
-sudo systemctl restart rippled.service - Restart Rippled Service
-sudo rippled peers - View Rippled Peers
 
 # MANUALLY UPDATE THE RIPPLED VERSION (SET)
 ===========================================
@@ -9,6 +5,18 @@ sudo apt -y update
 sudo apt -y upgrade rippled
 sudo systemctl daemon-reload
 sudo systemctl restart rippled
+
+# VIEW RIPPLED STATUS
+=====================
+sudo rippled server_info
+
+# RESTART RIPPLED SERVICE
+=========================
+sudo systemctl restart rippled.service
+
+# VIEW RIPPLED PEERS
+====================
+sudo rippled peers
 
 # OPEN THE RIPPLED CONFIG FILE
 ==============================
@@ -32,3 +40,5 @@ rippled feature SHAMapV2 reject
 
 # SET YOUR DOMAIN
 # SET ATTESTATION
+# DOWNGRADE THE VALIDATOR
+
