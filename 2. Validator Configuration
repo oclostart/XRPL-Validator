@@ -6,7 +6,6 @@
 
 # CONFIGURATION FILE
 ====================
-- Chain: Main
 - Domain: oclost.art
 - TOML: https://oclost.art/.well-known/xrp-ledger.toml
 - Database: 
