@@ -1,6 +1,5 @@
-# RIPPLEDCONFIGURATION FILE
-===========================
-
+# RIPPLED CONFIGURATION FILE
+============================
 *[ips]
 
 [voting]
@@ -16,7 +15,6 @@ type=NuDB
 online_delete=50000
 *advisory_delete=0
 
-#
-===============
-domain: oclost.art
-*vm.swappiness=0
+# HARDWARE SETTING
+==================
+vm.swappiness=0
