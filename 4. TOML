@@ -43,7 +43,7 @@ attestation="BB9ABB255CAD04020CD77105CDDBE8D28B86B08051FC2F55F3D140BD7D3994C8B67
 network = "main"
 owner_country = "US"
 server_country = "US"
-unl = "XRPLF,RIPPLE"
+unl = "CustomE"
 
 [[PRINCIPALS]]
 name = "Lost Art"
