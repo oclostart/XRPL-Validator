@@ -7,7 +7,7 @@ ssh username@0.0.0.0
 - Where 0.0.0.0 is the server's IP address
 
 # CHECK CPU USAGE (2)
-=============================
+=====================
 top
 htop
 
