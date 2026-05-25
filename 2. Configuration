@@ -15,6 +15,6 @@ type=NuDB
 online_delete=50000
 *advisory_delete=0
 
-# HARDWARE SETTING
-==================
+# HARDWARE SETTINGS
+===================
 vm.swappiness=0
