@@ -3,11 +3,11 @@
 - Owner: Lost Art
 - Public Key: nHU4puuP2kG2DySY7uBVYAzjCFbpFuPcK3SfubHqsM825iXg3NdT
 - Signing Key: n9LgeaZHS8XBgMrFinacxKNn28mdbknFoP1g1woMJXvtEFoXxivr
-- Location: [Orange County, CA, USA]
+- Location: Orange County, CA, USA
 - Internet Connectibity: 1 Gbps
 
 # SERVER SPECIFICATIONS
-
+=======================
 - Model: Dell PowerEdge R630
 - Processor: Xeon E5-2667v4 (8-Core, 3.2 GHz) x 2
 - Memory: 64 GB DDR4 2666 MHz PC4 R (4 × 16 GB)
@@ -17,7 +17,7 @@
 - OS: Linux (Ubuntu)
 
 # ADDiTIONAL HARDWARE
-
+=====================
 - Server Rack + Rails
 - PDU
 - Server Power Cables
