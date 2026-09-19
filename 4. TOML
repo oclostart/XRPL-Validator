@@ -9,10 +9,6 @@
 
 # VARIABLES NOT IN USE
 ======================
-[[ACCOUNTS]]
-address = ""
-desc = ""
-
 [[SERVERS]]
 json_rpc = ""
 ws = ""
@@ -36,6 +32,11 @@ network_asn =
 
 [METADATA]
 modified = 2026-05-25T07:00:00.000Z
+
+[[ACCOUNTS]]
+address = ""
+network = "main"
+desc = ""
 
 [[VALIDATORS]]
 public_key = "nHU4puuP2kG2DySY7uBVYAzjCFbpFuPcK3SfubHqsM825iXg3NdT"
