@@ -1,6 +1,5 @@
 # RIPPLED CONFIGURATION FILE
 ============================
-
 [voting]
 reference_fee = 10
 account_reserve = 100000
