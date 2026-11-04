@@ -1,0 +1,7 @@
+# RIPPLED CONFIGURATION FILE
+============================
+
+[voting]
+reference_fee = 10
+account_reserve = 100000
+owner_reserve = 10000
