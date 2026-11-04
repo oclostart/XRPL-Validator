@@ -1,7 +1,7 @@
 CONFIGRATION DIFFERENCES
 ========================
 - [Added] Lost Art: nHU4puuP2kG2DySY7uBVYAzjCFbpFuPcK3SfubHqsM825iXg3NdT (oclost.art)
-- [Added] Flare: nHUZRwL96AD7by5icnptu22KGbvDcN9pExAYwtMj1cpY2dsRfC4K (xrpl-verification.flare.network)
+- [Added] 
 - [Removed] Edu.au: nHUbgDd63HiuP68VRWazKwZRzS61N37K3NbfQaZLhSQ24LGGmjtn (xrp-col.anu.edu.au)
 - [Removed] Unwaterloo.ca: nHDH7bQJpVfDhVSqdui3Z8GPvKEBQpo6AKHcnXe21zoD4nABA6xj (ripplevalidator.uwaterloo.ca)
 
@@ -17,8 +17,7 @@ CONFIGRATION DIFFERENCES
 - XRPScan: nHDB2PAPYqF86j9j3c6w1F1ZqwvQfiWcFShZ9Pokg9q4ohNDSkAz (xrpscan.com)
 - Bithomp: nHB8QMKGt9VB4Vg71VszjBVQnDW3v3QudM4DwFaJfy96bj4Pv9fA (bithomp.com)
 - Squid: nHUHeq3QdVyLTUENPHAAJ1d5M1SbvY49rajs31mJS8CEfrvTfjn3 (squidrouter.com)
-- Anados Finance: nHUr8EhgKeTc9ESNt4nMYzWC2Pu7GgRHMRTsNEyGBTCfnHPxmXcm (anodos.finance)
-- GateHub: nHUY14bKLLm72ukzo2t6AVnQiu4bCd1jkimwWyJk3txvLeGhvro5 (validator.gatehub.net)
+- Anado- GateHub: nHUY14bKLLm72ukzo2t6AVnQiu4bCd1jkimwWyJk3txvLeGhvro5 (validator.gatehub.net)
 - Tequ: nHUxjxKPeErbN7pNk9UWA5Ee7ZPMtesSeRGJtmdqkTxe94tqM2YX (tequ.dev)
 - XRP Kuwait: nHUfxETNHsA9reyYCVYwNztEbifMg6U9YUdcgVvzMwGNpphKSSf6 (xrpkuwait.com)
 - Jon Nilsen: nHUvcCcmoH1FJMMC6NtF9KKA4LpCWhjsxk2reCQidsp5AHQ7QY9H (jon-nilsen.no)
@@ -53,7 +52,7 @@ CONFIGRATION DIFFERENCES
 - XRPScan: nHDB2PAPYqF86j9j3c6w1F1ZqwvQfiWcFShZ9Pokg9q4ohNDSkAz (xrpscan.com)
 - Bithomp: nHB8QMKGt9VB4Vg71VszjBVQnDW3v3QudM4DwFaJfy96bj4Pv9fA (bithomp.com)
 - Squid: nHUHeq3QdVyLTUENPHAAJ1d5M1SbvY49rajs31mJS8CEfrvTfjn3 (squidrouter.com)
-- Anados Finance: nHUr8EhgKeTc9ESNt4nMYzWC2Pu7GgRHMRTsNEyGBTCfnHPxmXcm (anodos.finance)
+- Flare: nHUZRwL96AD7by5icnptu22KGbvDcN9pExAYwtMj1cpY2dsRfC4K (xrpl-verification.flare.network)
 - GateHub: nHUY14bKLLm72ukzo2t6AVnQiu4bCd1jkimwWyJk3txvLeGhvro5 (validator.gatehub.net)
 - Tequ: nHUxjxKPeErbN7pNk9UWA5Ee7ZPMtesSeRGJtmdqkTxe94tqM2YX (tequ.dev)
 - XRP Kuwait: nHUfxETNHsA9reyYCVYwNztEbifMg6U9YUdcgVvzMwGNpphKSSf6 (xrpkuwait.com)
